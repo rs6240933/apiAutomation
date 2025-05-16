@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-16T17:33:03 IST" name="Suite" finished-at="2025-05-16T17:33:08 IST" duration-ms="4309">
+    <groups>
+    </groups>
+    <test started-at="2025-05-16T17:33:03 IST" name="Swagger Regression Test" finished-at="2025-05-16T17:33:08 IST" duration-ms="4309">
+      <class name="swagger.Tests.BooksTest">
+        <test-method is-config="true" signature="getReportObject()[pri:0, instance:swagger.Tests.BooksTest@4be29ed9]" started-at="2025-05-16T17:33:03 IST" name="getReportObject" finished-at="2025-05-16T17:33:03 IST" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReportObject -->
+        <test-method is-config="true" signature="initTest(java.lang.String)[pri:0, instance:swagger.Tests.BooksTest@4be29ed9]" started-at="2025-05-16T17:33:04 IST" name="initTest" finished-at="2025-05-16T17:33:04 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://fakerestapi.azurewebsites.net]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method is-config="true" signature="onTestStart(org.testng.ITestResult)[pri:0, instance:swagger.Tests.BooksTest@4be29ed9]" started-at="2025-05-16T17:33:04 IST" name="onTestStart" finished-at="2025-05-16T17:33:04 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=BooksTest.schemaValidationOfResponseFiltering()[pri:1, instance:swagger.Tests.BooksTest@4be29ed9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onTestStart -->
+        <test-method signature="schemaValidationOfResponseFiltering()[pri:1, instance:swagger.Tests.BooksTest@4be29ed9]" started-at="2025-05-16T17:33:04 IST" name="schemaValidationOfResponseFiltering" finished-at="2025-05-16T17:33:06 IST" duration-ms="2498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- schemaValidationOfResponseFiltering -->
+        <test-method is-config="true" signature="onTestCompletion(org.testng.ITestResult)[pri:0, instance:swagger.Tests.BooksTest@4be29ed9]" started-at="2025-05-16T17:33:06 IST" name="onTestCompletion" finished-at="2025-05-16T17:33:06 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=schemaValidationOfResponseFiltering status=SUCCESS method=BooksTest.schemaValidationOfResponseFiltering()[pri:1, instance:swagger.Tests.BooksTest@4be29ed9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onTestCompletion -->
+        <test-method is-config="true" signature="onTestStart(org.testng.ITestResult)[pri:0, instance:swagger.Tests.BooksTest@4be29ed9]" started-at="2025-05-16T17:33:06 IST" name="onTestStart" finished-at="2025-05-16T17:33:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=BooksTest.verifyBooksResponsseIsNotNull()[pri:1, instance:swagger.Tests.BooksTest@4be29ed9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onTestStart -->
+        <test-method signature="verifyBooksResponsseIsNotNull()[pri:1, instance:swagger.Tests.BooksTest@4be29ed9]" started-at="2025-05-16T17:33:06 IST" name="verifyBooksResponsseIsNotNull" finished-at="2025-05-16T17:33:07 IST" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBooksResponsseIsNotNull -->
+        <test-method is-config="true" signature="onTestCompletion(org.testng.ITestResult)[pri:0, instance:swagger.Tests.BooksTest@4be29ed9]" started-at="2025-05-16T17:33:07 IST" name="onTestCompletion" finished-at="2025-05-16T17:33:07 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBooksResponsseIsNotNull status=SUCCESS method=BooksTest.verifyBooksResponsseIsNotNull()[pri:1, instance:swagger.Tests.BooksTest@4be29ed9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onTestCompletion -->
+        <test-method signature="verifyResponseByFiltering()[pri:1, instance:swagger.Tests.BooksTest@4be29ed9]" started-at="2025-05-16T17:33:07 IST" name="verifyResponseByFiltering" finished-at="2025-05-16T17:33:08 IST" duration-ms="1116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseByFiltering -->
+        <test-method is-config="true" signature="onTestStart(org.testng.ITestResult)[pri:0, instance:swagger.Tests.BooksTest@4be29ed9]" started-at="2025-05-16T17:33:07 IST" name="onTestStart" finished-at="2025-05-16T17:33:07 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=BooksTest.verifyResponseByFiltering()[pri:1, instance:swagger.Tests.BooksTest@4be29ed9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onTestStart -->
+        <test-method is-config="true" signature="onTestCompletion(org.testng.ITestResult)[pri:0, instance:swagger.Tests.BooksTest@4be29ed9]" started-at="2025-05-16T17:33:08 IST" name="onTestCompletion" finished-at="2025-05-16T17:33:08 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyResponseByFiltering status=SUCCESS method=BooksTest.verifyResponseByFiltering()[pri:1, instance:swagger.Tests.BooksTest@4be29ed9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onTestCompletion -->
+        <test-method is-config="true" signature="onFinish(org.testng.ITestContext)[pri:0, instance:swagger.Tests.BooksTest@4be29ed9]" started-at="2025-05-16T17:33:08 IST" name="onFinish" finished-at="2025-05-16T17:33:08 IST" duration-ms="320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@61ad30f6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onFinish -->
+      </class> <!-- swagger.Tests.BooksTest -->
+    </test> <!-- Swagger Regression Test -->
+  </suite> <!-- Suite -->
+</testng-results>

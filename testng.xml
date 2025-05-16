@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+
+  <test name="Swagger Regression Test" 
+		thread-count="1">
+		<parameter name="url" value="https://fakerestapi.azurewebsites.net" />
+		<classes>
+		
+        <class name="swagger.Tests.BooksTest" />
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

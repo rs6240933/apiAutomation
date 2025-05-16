@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Swagger Regression Test(failed)">
+    <parameter name="url" value="https://fakerestapi.azurewebsites.net"/>
+    <classes>
+      <class name="swagger.Tests.BooksTest">
+        <methods>
+          <include name="onFinish"/>
+          <include name="verifyBooksResponsseIsNotNull"/>
+          <include name="onTestStart"/>
+          <include name="schemaValidationOfResponseFiltering"/>
+          <include name="onTestCompletion"/>
+          <include name="verifyResponseByFiltering"/>
+          <include name="initTest"/>
+          <include name="getReportObject"/>
+        </methods>
+      </class> <!-- swagger.Tests.BooksTest -->
+    </classes>
+  </test> <!-- Swagger Regression Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

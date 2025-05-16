@@ -27,5 +27,5 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-maven-
 
-      - name: Run Maven tests with TestNG suite
-        run: mvn clean test -DsuiteXmlFile=testng.xml
+      - name: Run Maven tests with TestNG suite (quiet mode)
+        run: mvn -q clean test -DsuiteXmlFile=testng.xml
